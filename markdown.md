@@ -88,3 +88,36 @@ I love \[chicken](https://www.bbq.co.kr/ "BBQ치킨").
 I love [chicken](https://www.bbq.co.kr/ "BBQ치킨").  
 
 - URLs and Email Addresses - URL이나 이메일을 빠르게 킬수 있도록 하려면 <>표시를 사용하면 됩니다.  
+
+## Images
+- 이미지를 추가하기 위해서는 !와[]표시와 괄호안에는 alt text를 쓴 후 ()표시와 괄호안에는 이미지 주소나 URL을 쓴다. URL 옆에 선택적으로 설명을 추가할 수 있습니다.  
+**ex)**  
+\!\[chicken](/assets/images/bbq.png "chicken")  
+**output**  
+  
+    ![chicken](/assets/images/bbq.png "chicken")
+
+- Linking Images -이미지와 링크를 연결시키기 위해서는 이미지의 Markdown을 []로 둘러싼 후 옆에 ()을 열어 링크를 추가합니다.  
+**ex)**  
+\[\!\[chicken](/assets/images/bbq.png "chicken")](https://www.bbq.co.kr/)  
+**output**  
+    [![chicken](/assets/images/bbq.png "chicken")](https://www.bbq.co.kr/)
+## Escaping Charaters
+다음 기호들은 \와 함께 사용하면 출력할 때 기능을 하지 않고 그대로 출력됩니다.  
+\\  
+\'  
+\*  
+\_  
+\{}  
+\[]  
+\<>  
+\()  
+\#  
+\+  
+\-  
+\.  
+\!  
+\|
+
+
+github.com/lyw3837
