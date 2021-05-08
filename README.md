@@ -1,4 +1,5 @@
 # Project2
+# git
 ## 초기설정
 
 
@@ -33,7 +34,7 @@ github에 올라간 모습은 위와 같다.
 ## first modify
 ![modify](firstmodify.PNG)  
 기존의 markdown.md에 49줄 정도 작성하였다.  
-작성한 후 **git status**을 한 결과 markdown.md가 변경되었다고 나왔고 **git add**와 **git commit**을 통해 commit 해줬다.
+작성한 후 **git status**을 한 결과 markdown.md가 변경되었다고 나왔고 **#git add**와 **git commit**을 통해 commit 해줬다.
 
 ## branch
 ![branch](branch.PNG)
@@ -73,6 +74,6 @@ first modify에서 second modify로 바뀜을 확인 할 수 있다.
 v0라는 태그를 설정한 후 push을 통해 main과 task2를 github로 push하였다.  
 
 ## 수행확인
-| [add](1) | branch | checkout | clone | commit | init | log | merge | pull | rebase | remote | reset --hard | status | tag |
+| [add](#git) | branch | checkout | clone | commit | init | log | merge | pull | rebase | remote | reset --hard | status | tag |
 | --- | ------ | -------- | ----- | ------ | ---- | --- | ----- | ---- | ------ | ------ | ------------ | ------ | --- |
 |  O  |   O    |     O    |   O   |    O   |   O  |  O  |   O   |   O  |    O   |    O   |       O      |    O   |  O  |
