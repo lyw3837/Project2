@@ -9,7 +9,7 @@
 또한 **config --list**를 통하여 어떻게 설정되었는지 볼 수 있습니다. 위 사진은 user name과 user email에 위에서 입력한 대로 바르게 들어간 것을 확인 할 수 있습니다.
 
 ![clone](clone.PNG)  
-**git init**을 통하여 .git이라는 파일을 만들고 **git remote add origin *repository address***을 통해 github와 연결하여 사용할 수 있으며  
+**git init**을 통하여 .git이라는 폴더 만들고 **git remote add origin *repository address***을 통해 github와 연결하여 사용할 수 있으며  
 **git clone *repository address***을 통해 github 복사한 폴더를 만들어 줍니다.
 
 ![clone](clone결과2.PNG)
