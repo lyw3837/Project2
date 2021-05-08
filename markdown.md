@@ -47,3 +47,44 @@ ex) I \*\*\*love\*\*\* chicken -> I ***love*** chicken
     > I love chicken
     >  
     >> I love pizza
+## Lists
+- 정렬된 리스트를 만들기 위해서는 숫자와 마침표를 맨 앞에 사용합니다.
+  마침표 앞에 쓰는 숫자는 순서와 상관이 없지만 목록은 숫자 1로 시작해야합니다. 
+- 정렬되지 않은 리스트를 만들기 위해서는 -, +, * 을 맨 앞에 사용합니다.  
+- 리스트에 들여쓰기를 통해서 단락, Blockquotes, 코드블록, 이미지, 목록을 추가 할 수 있씁니다.
+## Code
+- 단어나 문장을 코드로 나타내려면 '표시를 단어나 문장 처음과 끝에 사용합니다.
+- Escaping Backticks - 코드로 나타내려는 문장에 '표시가 하나 이상 포함되 있는 경우 단어나 문장 처음과 끝에 '을 두번 사용합니다.  
+- Code blocks - 코드블록을 만들려면 모든 줄의 빈공간이 4개 이상이거나 텝으로 들여쓰기를 해야합니다. 
+
+## Horizontal Rules
+줄을 사용하기 위해서는 ***, ---, ___을 사용하고 그 전후로 빈줄을  사용하면 줄이 그어집니다.  
+**ex)**  
+I love chicken   
+
+\---
+
+I love pizza  
+
+**output**  
+
+I love chicken
+
+---
+
+I love pizza
+
+## Links
+- 링크를 달기 위해서는 링크를 달 글자에 [] 기호를 사용하고 바로 뒤에 ()표시와 그 안에 URL를 넣으면 됩니다.  
+**ex)**  
+I love \[chicken](https://www.bbq.co.kr/).  
+**output**  
+I love [chicken](https://www.bbq.co.kr/).  
+
+- Adding Titles - 링크에 마우스 포인트를 갖다대면 설명이 나오게 하려면 URL 이후 괄호("")안에 설명을 쓰면 됩니다.  
+**ex)**  
+I love \[chicken](https://www.bbq.co.kr/ "BBQ치킨").  
+**output**  
+I love [chicken](https://www.bbq.co.kr/ "BBQ치킨").  
+
+- URLs and Email Addresses - URL이나 이메일을 빠르게 킬수 있도록 하려면 <>표시를 사용하면 됩니다.  
